@@ -1,0 +1,27 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "Node React boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mv8ang/react-skeleton.git"
+  },
+  "author": "Mladen Angelov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mv8ang/react-skeleton/issues"
+  },
+  "homepage": "https://github.com/mv8ang/react-skeleton#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "watchify": "^3.7.0"
+  }
+}
